@@ -1,4 +1,7 @@
 [build]
   base = "/"
-  publish = "/"
+  publish = "public"
   command = ""
+  
+[build.environment]
+  HUGO_VERSION = '0.119.0'
